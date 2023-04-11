@@ -1,0 +1,86 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2374/2374370.png" type="image/icon type">
+  <title>
+    My CalC
+  </title>
+  <style>
+    table {
+      border: 1px solid black;
+      border-radius: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: space-around;
+      margin: auto;
+      background-color: cadetblue;
+    }
+
+    body {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .but {
+      width: 100%;
+      padding: 40px 50px;
+      background-color: teal;
+      color: white;
+      font-size: 24px;
+      /* border: none; */
+      /* border: 1pxdarkgray; */
+      border-radius: 15px;
+    }
+
+    .but:hover {
+      background-color: white;
+      color: teal;
+    }
+
+    .txt {
+      padding: 33px 28px;
+      font-size: 27px;
+      font-style: oblique;
+      text-align: right;
+      color: teal;
+      border: none;
+      border-radius: 5px;
+      border: 2px solid teal;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <tr>
+      <td colspan="3"><input type="text" class="txt" id="result"></td>
+      <td><input type="button" class="but" value="c" /></td>
+    </tr>
+    <tr>
+      <td><input type="button" class="but" value="1" /></td>
+      <td><input type="button" class="but" value="2" /></td>
+      <td><input type="button" class="but" value="3" /></td>
+      <td><input type="button" class="but" value="/" /></td>
+    </tr>
+    <tr>
+      <td><input type="button" class="but" value="4" /></td>
+      <td><input type="button" class="but" value="5" /></td>
+      <td><input type="button" class="but" value="6" /></td>
+      <td><input type="button" class="but" value="*" /></td>
+    </tr>
+    <tr>
+      <td><input type="button" class="but" value="7" /></td>
+      <td><input type="button" class="but" value="8" /></td>
+      <td><input type="button" class="but" value="9" /></td>
+      <td><input type="button" class="but" value="-" /></td>
+    </tr>
+    <tr>
+      <td><input type="button" class="but" value="0" /></td>
+      <td><input type="button" class="but" value="." /></td>
+      <td><input type="button" class="but" value="=" /></td>
+      <td><input type="button" class="but" value="+" /></td>
+    </tr>
+  </table>
+</body>
+</html>
